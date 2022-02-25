@@ -1,0 +1,75 @@
+1. Front End Tools
+  	HTML
+	CSS	
+	Bootstrap
+	JavaScirpt
+	jQuery
+	TypeScript
+	Intro Angular, React
+2. Back End 
+	Express
+	Node.js
+	MongoDB
+
+Types of Applications
+1. Web Application
+2. Distributed Applications
+
+		            Web Applications
+1. Network
+    - A computer network comprises of group of computers connecting with each other for sharing of information and resources.
+
+2. Types of Networks
+	a) LAN
+	b) MAN
+	c) WAN
+
+3. Internet
+   - It is a wide area network that connects computers all over the world.
+
+4. Web
+   - In early 1990's "Tim Berners Lee" introduced the concept of Web.
+   - Web is a portion of internet with restricted access.
+   - Web Standards are mantained by
+	W3C  [ World Wide Web Consortium]
+                 WHATWG [Web Hyper Text Application Technology Work Group]
+
+	w3.org
+	whatwg.org
+
+5. Web Server : It resembles both hardware and software that satisfies the client
+	         request by sending and receving data.
+
+	         Web server  hosts your application,
+	                              handle request and response.
+
+	          a) Local Servers
+		  IIS, Tomcat etc..
+	          b) Cloud Servers
+		  AWS, Azure, Firebase etc..
+
+1991 - Windows is Operating Environment  
+1992 - Window 3.1
+1995 - Windows OS
+1998 - Internet
+2000 - Networking
+XP    - Plug-n-play
+
+	IIS - Internet Information Services
+
+
+Windows => Control Panel => Administrative Tools => IIS
+
+- open browser
+     http://localhost     or      http://127.0.0.1
+
+
+6. Website
+    - It is a virtual directory of web server.
+    
+       http://localhost/bookmyshow
+
+       D:\BookMyShow
+
+
+7. Web Page
