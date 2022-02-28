@@ -1,0 +1,199 @@
+		 Web Development
+1. Front End
+	- HTML
+	- CSS
+	- Bootstrap
+	- JavaScript
+	- jQuery
+	- Sass
+	- TypeScript
+	- Introduction to Angular and React
+2. Back End
+	- MongoDB
+	- Express
+	- Node.js
+Setup Environment for Web Development
+================================
+1. Download and Install Node.js on your PC.
+    - We are downloading and Installing node.js for a "Package Manager" called "NPM"
+    - You can also use other package manager tools like
+	- Yarn
+	- Bower
+	- GRUNT
+	- RubyGems
+	- NuGet
+     - We will use "NPM" as package manager.
+
+  Ex:
+   - visit   "www.nodejs.org"
+   - download  16x version
+   - Open Installer and follow steps
+
+2. Test node and npm 
+   - Open your command prompt
+              run -> cmd
+   - Type the following commands
+
+	C:\> node  -v
+                 C:\> npm   -v
+
+   Note:  Make sure that you have node 12+ and npm 6+ version.
+
+FAQ: What is Package Manager?
+Ans : It is a software tool used for installing various libraries required
+         for project.
+
+
+3. Download and Install an Editor on your PC
+    - Editor provides an IDE [Integrated Development Environment].
+    - You can build, debug, test and deploy applications.
+    - We will use the editor  "Visual Studio Code".
+
+        https://code.visualstudio.com/
+
+    - Download and Install
+
+	 Not - Visual Studio  
+	 It is - Visual Studio Code
+
+4. You have to download few extentions for VS Code
+
+	- Live Server   [Ritwik Dey]
+	- Vscode-icons 
+
+
+
+Summary
+- Install Node.js
+- Install Visual Studio Code
+- Install Extentions
+	Live Server
+	Vscode-icons
+
+Create a new Project
+================
+1. Open any PC location and create a folder for project.
+		  
+
+        D:\Amazon-Shopping
+
+2. Open project folder in Visual Studio Code
+
+     - Go to "File Menu"
+     -  Open Folder
+     -  Select 
+	D:\Amazon-Shopping
+
+3.  Go to Terminal Menu and Select "New Terminal"
+
+4.  Change the default terminal to "Command Prompt"
+
+5.  Type the following command in terminal
+
+      D:\Amazon-Shopping> npm  init  -y
+
+     This will generate  "package.json" file
+
+FAQ: What is package.json?
+Ans:  It is project initialization file, it contains meta data.
+         Meta data is information about project.
+         	- Project Name
+ 	- Version
+	- Copyrights
+	- License 
+	- Dependencies etc..
+
+6. Add following folders into project
+	- public
+	- src
+
+   Public  	: Comprises of static resources like
+	  html, images, text documents, audio, video etc..
+
+   Src	: Comprises of dynamic resources like
+	  css, scss, js, ts, etc..
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		      
+
+https://github.com/Sharma-NareshIT/Fullstack
+
+
+
+
+
+
