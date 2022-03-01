@@ -1,0 +1,75 @@
+Web Page
+- It is a hyper text document that provides an interface for user to interact with the resources in website.
+- Hyper is a Greek term, which mean "Beyond"
+- Hyper Text document comprises of lot of content beyond what you see.
+- Web Pages are classified into 2 types
+	a) Static Pages
+	b) Dynamic Pages
+
+- Static is continous memory
+- Dynamic is discreet memory
+
+Static Page:
+- A static comprises of same information to display across any number of requests.
+- Static pages have extention
+	.html
+	.htm
+
+Dynamic Page
+- A dynamic page can change information according to request.
+- Initially it may look same, but will not respond same.
+- Dynamic Pages have extention
+	.aspx
+	.asp
+	.php
+	.jsp   etc..
+
+- To design a static page or a dynamic page we need HTML.
+
+   [Hyper Text Markup Language]
+
+- Every project starts with a static page "index.html"
+
+    
+Ex:
+1. Goto "public" folder
+2. Add a new file "index.html"
+
+          Welcome to HTML
+
+3. Right Click in the page and select
+	
+           "open with live server"
+
+4. Open any browser : edge, chrome etc..
+
+          http://localhost:5500       or
+          http://127.0.0.1:5500
+
+
+		           HTML 
+
+- Hyper Text Markup Language
+- Hyper Text contains information beyond what you see.
+- Markup is a term used for presentation.
+- Marking up means preparing for presentation.
+- HTML is a presentation language.
+- GML and SGML are the first markup languages used for internet.
+
+	CERN Labs - GML, SGML
+	[Counsil for Equropean Research and Nuclear]
+
+	Generic Markup Language
+	Standard Generic Markup Language
+
+- 1990 Tim Berners Lee introduced the concept of Web and
+  a language for web called HTML.
+
+- IETF [Internet Engineering Task Force] developed HTML 
+	       upto version 3.1
+
+- 2004  WHATWG  developing HTML.
+    Web Hyper Text Applciation Technology Work Group
+    Version 4.0
+
+- Latest Version of HTML is  HTML 5
