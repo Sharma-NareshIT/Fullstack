@@ -1,0 +1,92 @@
+HTML Processing Architecture
+
+Markup => Bytes => Chars => Token => Node => DOM [Layout] => Rendering => Painting
+
+Browser Engine:  It is responsible for  Parsing [Translating]
+                             Markup => Bytes
+	            Bytes  => Chars
+                             Chars  => Token
+                             Token  => Node
+
+Rendering Engine: It is responsible for generating output
+	              - Prepare DOM
+	              - Generate Layout
+	              - Undergo Rendering
+	              - Paint
+
+Popular Browser Engines  [Interpreted - Line By line translation]
+- Webkit
+- Gecko
+- Chakra
+- Chromium
+
+Popular Rendering Engines
+- Ivy
+- Razor
+- Spark
+- Nahml
+- Django 
+
+Browser Compilers [Translate entire program]
+-Babel
+-V8
+
+What is HTML?
+- HTML is a markup language.
+- It comprises elements arranged in a hierarchy called "DOM".
+  [Document Object Model]
+- Elements are known as "Nodes"
+- Elements are created by using Token known as "Tag"
+- Elements in HTML are categorized into following groups
+
+	1. Normal Elements
+	2. Void Elements
+	3. RC Data Elements
+	4. Raw Text Elements
+	5. Foreign Elements
+
+
+Normal Element:
+- Normal element can present content directly on callback without using
+  additional attributes.
+- It starts presentation and will not stop.
+- You have to stop explicitly. By using End Token.
+
+   Start Token [Start Tag]  <b>
+   End Token [End Tag]    </b>
+
+Void Elements:
+- The term void means nothing to return.
+- They return any presentation by using additional attributes.
+- After returning what you asked to again it will stop.
+- Void elements are self ending. No end token required.
+
+Ex:    <img> 
+         <img src="pic.jpg"> 
+         <img src="pic.jpg" />
+
+
+3. RC Data Elements
+- Rich Content Elements
+- These are used only for content.
+- You can't use any other presentation within the context.
+
+Ex: 
+<textarea> </textarea>
+
+4. Raw Text Elements
+- Elements are presented not by using Token.
+- They are presented by using normal text [Raw Text]
+
+Ex:
+       &copy;	copyright 
+       &#8377;	Indian Rupee
+
+5. Foreign Elements
+- These are the element used in HTML but not native to HTML.
+- They need additional library to import inorder to use.
+
+Ex: 
+	MathML
+	SVG
+	Canvas etc..
