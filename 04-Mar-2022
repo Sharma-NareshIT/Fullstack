@@ -1,0 +1,110 @@
+Browser Engine
+	- Webkit
+	- Chromium
+	- Gecko
+Browser Parsing
+
+markup > bytes > chars > token > node > DOM > layout > rendering
+> painting
+
+Elements
+1. Normal
+2. Void
+3. RC Data 
+4. Raw Text
+5. Foreign 
+
+
+		HTML Page Structure
+
+- Every static page can have extention  
+	.html
+	.htm
+
+FAQ: What is difference between  .html and  .htm?
+Ans : No difference.
+         As per standards of extention name in operating system some
+        software can give only 3 chars extention.
+		.htm
+		.jpg
+
+- Every HTML page starts with "Document Declaration"
+
+                 <!doctype html>
+	<!DOCTYPE html>
+	
+	<token>	- tag - node - DOM - layout - render - paint
+	<!not_token>
+	<!doctype html>   defines HTML 5 version
+
+- Document declaration defines HTML 5 version
+
+Syntax:
+	<!DOCTYPE html>
+
+- Document Scope
+  It specifies the range of HTML document in browser.
+  It defines the start and end of HTML document.
+  It is defined by using
+	<html>
+	</html>
+
+ Syntax:
+	<!DOCTYPE html>
+	<html>
+
+	</html>
+
+   It also defines which language is used for content in document.
+
+	<html  lang="en-in">
+
+	</html>
+
+Summary:
+1. Page extention :  .html, .html
+2. Document Declaration
+3. Document Scope
+
+- Every HTML document comprises of 2 sections
+	a) Head	<head> </head>
+	b) Body	<body> </body>
+
+- Head section
+  It defines the content intended to load into browser memory.
+  It is delivered to page when ever requested.
+  HTML section comprises of
+	a) title
+	b) link
+	c) meta
+	d) style
+	e) script
+
+- Title 
+   It defines the title to display in browser title bar
+   It defines the title to use in bookmarking
+
+   Syntax:
+	<!DOCTYPE html>
+	<html>
+	<head>
+	   <title> Amazon | Shopping </title>
+	</head>
+	</html>
+
+- Link
+  It is used to link external files to webpage like css files or favicon.
+  Favicon is a short cut icon displayed in title bar.
+
+
+Rules for Favicon:
+1. Favicon must have extention  ".ico"
+2. Favicon can be between
+	16 x 16 pixels   to
+	32 x 32 pixels
+
+Syntax:
+   <head>
+      <link rel="shortcut icon"  href="favicon.ico">
+   </head>
+   
