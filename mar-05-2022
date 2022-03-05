@@ -1,0 +1,111 @@
+HTML Page Structure
+1. Document Declaration
+	<!DOCTYPE html>
+2. Document Scope
+	<html> </html>
+3. Sections in Document Scope
+	<head> </head>
+	<body> </body>
+
+4. Head Section
+	<title>
+	<link>
+	<meta>
+
+		    Meta in HTML
+		    -------------------
+- Meta represents "Meta Data".
+- Meta data contains information about your page given to browser and SEO. [Search Engine Optimization].
+- Meta is used by browser to make the page responsive.
+- A responsive page can fit content according to device of client.
+  [Mobile, Tab, PC, Laptop, Watch]
+- Meta is one option for making page responsive.
+
+Meta for Responsive Page:
+=====================
+
+name=viewport	: defines the type of device [mobile, watch, tab]
+		  defines the orientation of device.
+
+content		: width fits to device width.
+		  initial scale set to 100% [zoom].
+
+Syntax:
+ <head>
+  <meta name="viewport"  content="width=device-width, initial-scale=1">
+ </head>
+
+
+To Test on Various devices download:
+
+- Go to Google Chrome browser
+- Type in address bar
+	Chrome://apps
+- Click on "Web Store"
+- Search for "Mobile Simulator"
+- Add to Chrome.
+
+Meta for SEO:
+================
+<meta  charset="utf-8">
+
+       charset  : It is used by crawlers to understand the type of language
+	      used for website. Language type is identified according
+	      to charset.
+
+	      UTF  - Unicode Transformation Format
+
+	      8 bit		english
+	      16 bit		china, japan, korean, hindi, tel, tamil
+	      32 bit		arabic
+	
+<meta name="keywords"  content="some keywords..">
+
+	  
+   Keywords 	: are the words used by crawlers to find your
+		  page and show in results.
+
+
+<meta name="description"  content="something about your site">
+
+    Description 	: is summary of your website shown in search
+		  results.
+
+
+Meta Request Header
+=================
+- It is used by browser to manage request to any website.
+
+<meta http-equiv="refresh"  content="5">
+
+
+Summary:
+<head>
+ <meta name="viewport"  content="width=device-width, initial-scale=1">
+ <meta charset="utf-8">
+ <meta name="keywords"  content="Shopping Online, Buy Online, Mobile Online">
+ <meta name="description" content="Amazon is online shopping store with great offers..">
+ <meta http-equiv="refresh"  content="5">
+</head>
+
+
+4. Style	:  It is used to embed styles / css in your page.
+
+	  <head>
+	   <style>
+	        selector {
+	         }
+	  </style>
+	</head>
+
+5. Script	: It is used to embed script and files
+	
+	<head>
+	<script>
+	   function f1() { 
+	   }
+	</script>
+	</head>
+
+
+Body Section:
