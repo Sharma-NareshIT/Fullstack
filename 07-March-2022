@@ -1,0 +1,131 @@
+		        HTML Body Section
+- Body section contains information to display in browser workspace.
+- Body section is defined by using 
+	<body>
+	</body>
+- Body Section attributes 
+
+Note: Every HTML element comprises of attributes, which are optional for certain type of elements.
+         Attribute may or may not have value, depending on its behaviour.
+
+	   <body   attribute>
+	   <body   attribute="value">
+	   <body   attribute=value>	without quote
+	   <body   attribute="value">	with double quote
+	   <body   attribute='value'>	with single quote
+	   <body   attribute=`value`>	with back tick
+
+         Always use double quotes for HTML attribute values.
+
+
+Body Element Attributes
+==================
+1. bgcolor		: It sets a background color for page.
+		  Color can be defined in HTML by using 2 		  techniques
+			a) Color Name
+			b) Color Hexa Decimal Code
+
+HTML Colors:
+1. Color Name: You can define any color name.
+
+            <body bgcolor="yellow">
+            <body bgcolor="lime">
+            <body bgcolor="lightyellow">
+
+2. Hexa Decimal Code
+
+	a)  3 Char Code
+
+		#RGB	  [Red Green Blue]
+		
+	      R, G, B  =  0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f
+		       0=dark
+		       f=bright
+
+	
+	b) 6 Char Code
+
+		#RRGGBB
+
+		#00ff00
+
+
+2. Text	: It defines the body text color.
+
+Syntax:
+	<body  bgcolor="red"  text="white">
+	<body  bgcolor="#ff0000"  text="#ffffff">
+	<body  bgcolor="#f00" text="#fff">
+	<body  bgcolor="#ff0000"  text="#fff">
+
+
+3. background  :  It is used to define a background image.
+
+
+Note:
+- You can't define a background color when background image is specified.
+- Background image will be given with high priority.
+- Never use physical path for any resource in your website.
+- Always use virtual path.
+   * Copy the image or resource into your project physical path
+   * Access the folder without drive name defined.
+
+	
+Syntax:
+   <body  background="./netflixback.jpg" text="white">
+
+
+4. align :  It aligns the body content  left, center, right or justify.
+
+	<body  align="center">
+	<body  align="justify">
+
+5. leftmargin
+    rightmargin
+    topmargin
+    bottommargin
+
+Note:
+ - Page with can be maximum 1200 pixels
+ - Page content must be minimum 500 pixels
+ - Page height must be 768px
+
+
+Syntax:
+     <body  leftmargin="50"  rightmargin="50" topmargin="100" bottommargin="100"> 
+     </body>
+
+
+6. alink and vlink
+
+    alink 	: sets color for active links in page.
+    vlink	: sets color for visited links in page.
+
+    <body  alink="red"  vlink="gray">
+    </body>
+
+Ex:
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Body Section</title>
+    </head>
+    <body vlink="gray" alink="red">
+        <a href="http://www.amazon.in">Amazon Shopping</a> |
+        <a href="http://api.nasa.gov">Nasa API</a>
+    </body>
+</html>
+
+Summary:
+- bgcolor
+- background
+- text
+- align
+- alink
+- vlink
+- leftmargin
+- rightmargin
+- bottommargin
+- topmargin
+
+
